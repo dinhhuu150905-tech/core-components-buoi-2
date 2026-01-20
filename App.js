@@ -4,25 +4,20 @@ import { StyleSheet, Text, View, TextInput, TouchableOpacity } from 'react-nativ
 export default function App() {
   return (
     <View style={styles.container}>
-      {/* Tiêu đề */}
       <Text style={styles.title}>Đăng nhập</Text>
 
-      {/* Nhãn */}
       <Text style={styles.label}>Nhập số điện thoại</Text>
 
-      {/* Mô tả */}
       <Text style={styles.description}>
         Dùng số điện thoại để đăng nhập hoặc đăng ký tài khoản tại OneHousing Pro
       </Text>
 
-      {/* Ô nhập số điện thoại */}
       <TextInput
         style={styles.input}
         placeholder="Nhập số điện thoại của bạn"
         keyboardType="phone-pad"
       />
 
-      {/* Nút tiếp tục */}
       <TouchableOpacity style={styles.button}>
         <Text style={styles.buttonText}>Tiếp tục</Text>
       </TouchableOpacity>
